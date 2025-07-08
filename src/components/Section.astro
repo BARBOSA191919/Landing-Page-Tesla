@@ -11,9 +11,13 @@ import FooterMenu from './FooterMenu.astro';
 >
   <div class="z-30 relative h-full flex flex-col">
     <header>
-      <h2 class={`${textColor} pt-20 text-[45px] font-medium`}>
-        {title}
-      </h2>
+      <div class="pt-20">
+        <slot name="header">
+          <h2 class={`${textColor} text-[45px] font-medium`}>
+            {title}
+          </h2>
+        </slot>
+      </div>
       <p class={`${textColor} text-sm`}>
         {subtitle}
       </p>
@@ -21,7 +25,6 @@ import FooterMenu from './FooterMenu.astro';
 
     <footer class="flex flex-col flex-grow justify-end pb-20">
       <slot name="footer" />
-      <!-- Contidionally load footer: -->
       {showFooterContent && <FooterMenu />}
     </footer>
   </div>

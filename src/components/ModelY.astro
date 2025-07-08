@@ -4,22 +4,22 @@ import Section from "./Section.astro"
 
 <Section
   title="Model Y"
-  subtitle="Concertar una prueba de conducción"
-  color="black"
+  subtitle="Lease From $399/mo"
+  color="white"
   id="model-y"
 >
   <div slot="footer" class="gap-x-6 flex mx-auto">
     <a
-      class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500"
+      class="border-[3px] border-blue-600 bg-blue-600 text-sm rounded font-medium text-white px-12 py-2 inline-block transition-colors hover:border-blue-500 hover:bg-blue-800"
       href="#"
     >
-      Explorar inventario</a
+      Order now</a
     >
     <a
       class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black"
       href="#"
     >
-      Pedido personalizado</a
+      Lear More</a
     >
   </div>
 
@@ -27,7 +27,7 @@ import Section from "./Section.astro"
     slot="background"
     alt="Model Y"
     class="h-full w-full object-cover object-center bg-image"
-    src="model-y.avif"
+    src="modely.avif"
     id="bg-image-modely"
   />
 </Section>
@@ -51,6 +51,6 @@ import Section from "./Section.astro"
   if (isEdge()) {
     imageElement.src = "model-y.webp"
   } else {
-    imageElement.src = "model-y.avif"
+    imageElement.src = "modely.avif"
   }
 </script>
