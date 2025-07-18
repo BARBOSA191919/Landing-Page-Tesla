@@ -1,6 +1,6 @@
 # Tesla Landing Page Clone
 
-Una réplica moderna de la landing page de Tesla construida con Astro, TypeScript y Tailwind CSS. Este proyecto demuestra técnicas avanzadas de desarrollo web con optimización de rendimiento y experiencia de usuario excepcional.
+Una réplica moderna de la landing page de Tesla construida con Astro, TypeScript y Tailwind CSS. Además, este proyecto demuestra técnicas avanzadas de desarrollo web con optimización de rendimiento y experiencia de usuario excepcional.
 
 ## 📋 Descripción
 
