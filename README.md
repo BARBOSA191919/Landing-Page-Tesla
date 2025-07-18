@@ -6,7 +6,7 @@ Una réplica moderna de la landing page de Tesla construida con Astro, TypeScrip
 
 Esta landing page es una recreación fiel del sitio web oficial de Tesla, implementando todas las animaciones, transiciones y elementos visuales que caracterizan a la marca. Desarrollada con tecnologías modernas para garantizar máximo rendimiento y experiencia de usuario.
 
-## 🖼️ Capturas de Pantalla
+## 📷 Capturas de Pantalla
 
 ### Vista Principal
 <img width="1837" height="1010" alt="image" src="https://github.com/user-attachments/assets/7d6de93c-27fb-44ac-9ec2-7fd48e886fae" />
